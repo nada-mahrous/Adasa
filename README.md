@@ -45,47 +45,6 @@ The website presents photography articles, categories, author details, and indiv
 - Bootstrap
 - Vercel
 
-## 🚀 Run the Project Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/nada-mahrous/Adasa.git
-```
-
-Open the project directory:
-
-```bash
-cd Adasa
-```
-
-Install the required packages:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-ng serve
-```
-
-Open the following address in your browser:
-
-```text
-http://localhost:4200
-```
-
-## 📦 Build the Project
-
-To create a production build, run:
-
-```bash
-ng build
-```
-
-The generated files will be available inside the `dist` directory.
 
 ## 📁 Project Structure
 
