@@ -1,0 +1,90 @@
+<div
+  class="error-page d-flex align-items-center justify-content-center position-relative overflow-hidden"
+>
+  <div class="position-absolute top-0 start-0 w-100 h-100 grid-bg"></div>
+
+  <div class="position-absolute top-0 start-0 w-100 h-100 opacity-40">
+    <div class="gradient-blob blob-1"></div>
+    <div class="gradient-blob blob-2"></div>
+  </div>
+
+  <div class="position-relative text-center px-4 content-wrapper">
+    <div class="position-relative mb-4">
+      <h1 class="display-404">404</h1>
+    </div>
+
+    <div class="icon-container position-relative mx-auto mb-4">
+      <div class="position-absolute top-0 start-0 w-100 h-100 icon-bg rounded-circle"></div>
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+      >
+        <svg class="icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+      </div>
+      <div class="icon-dot icon-dot-1"></div>
+      <div class="icon-dot icon-dot-2"></div>
+    </div>
+
+    <h2 class="fs-2 fw-bold text-white mb-4">عفواً! الصفحة غير موجودة</h2>
+
+    <p class="text-white-50 mb-4 fs-5">
+      الصفحة التي تبحث عنها غير موجودة أو تم نقلها. دعنا نعيدك إلى المسار الصحيح.
+    </p>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-5">
+      <a
+        class="btn btn-primary btn-lg d-inline-flex align-items-center justify-content-center gap-2"
+        routerLink="/home"
+        data-discover="true"
+      >
+        <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+          ></path>
+        </svg>
+        الذهاب للرئيسية
+      </a>
+      <a
+        class="btn btn-outline-light btn-lg d-inline-flex align-items-center justify-content-center gap-2"
+        routerLink="/blog"
+        data-discover="true"
+      >
+        <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+          ></path>
+        </svg>
+        تصفح المقالات
+      </a>
+    </div>
+
+    <div class="pt-4 border-top footer-links">
+      <p class="small text-secondary mb-3">قد تجد هذه مفيدة:</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3 small">
+        <a class="text-decoration-none link-orange" routerLink="/blog" data-discover="true"
+          >المدونة</a
+        >
+        <span class="text-secondary">•</span>
+        <a class="text-decoration-none link-orange" routerLink="/whous" data-discover="true"
+          >من نحن</a
+        >
+        <span class="text-secondary">•</span>
+        <a class="text-decoration-none link-orange" routerLink="/privacy" data-discover="true"
+          >الخصوصية</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
